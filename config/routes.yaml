@@ -1,0 +1,22 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+
+index:
+    path: '/index'
+    controller: App\Controller\ControllerGeneral::index
+
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+register:
+    path: /register
+    controller: App\Controller\SecurityController::register
+
+logged:
+    path: /logged
+    controller: App\Controller\SecurityController::logged

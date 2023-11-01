@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studapart</title>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}" />
+</head>
+<body>
+    <header>
+        <div>
+        <h1>Studapart</h1>
+        <nav>
+            <ul>
+                <li><a href="#">La culture du mieux loger</a></li>
+                <li><a href="#">Trouver un logement</a></li>
+                <li><a href="#">Je suis propriétaire</a></li>
+                <li><a href="{{ path('login') }}" class="button-login">Mon compte</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+    <div class="secondary"></div>
+    <div class="primary">Louez pour un mois minimum, partout en France.</div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

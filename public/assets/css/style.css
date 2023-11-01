@@ -1,0 +1,77 @@
+:root{
+    --color-bg-light: #fff;
+    --color-bg-xweak: #f8f8ff;
+    --color-ft-strong: #36417D;
+}
+
+
+html, body{
+    margin: 0;
+    width: 100vw;
+    background-color: var(--color-bg-light);
+    color: var(--color-ft-strong);
+}
+
+header{
+    background-image: url(https://www.studapart.com/themes/custom/iw_bootstrap4/assets/img/background/home.jpg?frz-v=2940);
+    width: 100%;
+    height: 450px;
+    color: var(--color-bg-light);
+
+}
+header div{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+header nav a{
+    color: var(--color-bg-light);
+    text-decoration: none;
+}
+
+.button-login{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--color-bg-light);
+    transition: 0.3s linear;
+}
+
+.button-login:hover{
+    color: black;
+    background-color: var(--color-bg-light);
+}
+
+.primary{
+    background-color: var(--color-bg-light);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.secondary{
+    background-color: var(--color-bg-xweak);
+    min-height: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* .login{
+} */
+
+.login form{
+    padding: 30px 25%;
+    display: flex;
+    flex-direction: column;
+}
